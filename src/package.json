@@ -1,0 +1,32 @@
+{
+  "name": "GoEx-Website",
+  "title": "GoEx Website",
+  "version": "1.0.0",
+  "description": "统一并标准化各个数字资产交易平台的接口",
+  "keywords": [
+    "GoEx",
+    "exchange",
+    "crypto",
+    "bitcoin",
+    "BTC",
+    "goex",
+    "trader"
+  ],
+  "bugs": {
+    "url": "https://go-ex/go-ex.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://go-ex/go-ex.github.io.git"
+  },
+  "author": "beaquant",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.11"
+  }
+}
