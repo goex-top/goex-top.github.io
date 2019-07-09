@@ -1,8 +1,8 @@
-# Introduction
-
 <div align="center">
-<img width="409" heigth="205" src="https://raw.githubusercontent.com/go-ex/go-ex.github.io/master/docs/.vuepress/public/goex.png"  alt="GoEx">
+<img width="409" heigth="205" src="https://raw.githubusercontent.com/go-ex/go-ex.github.io/master/src/docs/.vuepress/public/goex.png"  alt="GoEx">
 </div>
+
+# Introduction
 
 ### GoEx
 GoEx project is designed to unify and standardize the interfaces of each digital asset trading platform. The same strategy can be switched to any trading platform at any time without changing any code.

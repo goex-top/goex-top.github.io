@@ -1,19 +1,16 @@
 module.exports = {
-  title: 'GoEx',
-  description: '行情/交易库，简洁，易用，高效',
   locales: {
     '/': {
       lang: 'zh-CN',
       title: 'GoEx',
-      description: 'GoEx文档'
+      description: '行情/交易库，简洁，易用，高效'
     },
     '/en/': {
       lang: 'en-US',
       title: 'GoEx',
-      description: 'GoEx documentation'
+      description: 'GoEx Easy and Powerful'
     }
   },
-
   displayAllHeaders: true,
   ga: 'UA-111085798-1',
   sidebarDepth: 3,
