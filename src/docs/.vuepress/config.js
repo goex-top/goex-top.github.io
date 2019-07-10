@@ -13,10 +13,14 @@ module.exports = {
   },
   displayAllHeaders: true,
   ga: 'UA-111085798-1',
-  sidebarDepth: 3,
+  markdown: {
+    lineNumbers: true
+  },
+  sidebarDepth: 4,
   head: [['link', { rel: 'icon', href: 'logo.ico' }]],
   serviceWorker: true,
   themeConfig: {
+    editLinks: true,
     search: false,
     searchMaxSuggestions: 10,
     repo: 'go-ex/go-ex.github.io',

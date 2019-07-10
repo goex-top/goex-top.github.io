@@ -27,6 +27,11 @@
     "deploy": "bash deploy.sh"
   },
   "devDependencies": {
+    "@babel/helper-module-imports": "^7.0.0",
     "vuepress": "^0.14.11"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-syntax-jsx": "^7.2.0"
   }
 }

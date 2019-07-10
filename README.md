@@ -18,4 +18,5 @@ GoEx文档
 
 ## 发布
 生成静态文件后，将```src/docs/.vuepress/dist```目录下所有文件拷贝至根目录下
-```npm run docs:build```
+或
+```npm run docs:deploy```
