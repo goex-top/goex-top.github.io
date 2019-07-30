@@ -18,7 +18,7 @@ module.exports = {
   },
   sidebarDepth: 4,
   head: [['link', { rel: 'icon', href: 'logo.ico' }]],
-  serviceWorker: true,
+  serviceWorker: false,
   themeConfig: {
     editLinks: true,
     search: false,
