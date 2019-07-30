@@ -6,25 +6,25 @@
 
 ### 按小时获取账户交易记录
 
-```golang
+```go
 func (fc *FCoin) GetHoursOrderHistorys(currency CurrencyPair, start time.Time, hours int64) ([]Order, error)
 ```
 
 ### 按天获取账户交易记录
 
-```golang
+```go
 func (fc *FCoin) GetDaysOrderHistorys(currency CurrencyPair, start time.Time, days int64) ([]Order, error)
 ```
 
 ### 获取交易所交易对详细信息
 
-```golang
+```go
 func (fc *FCoin) GetTradeSymbols(currencyPair CurrencyPair) (*TradeSymbol, error)
 ```
 
 ## OKEX
 
-```golang
+```go
 var okex = NewOKEx(&goex.APIConfig{
                     	Endpoint: "https://www.okex.com",
                     	//HttpClient: &http.Client{

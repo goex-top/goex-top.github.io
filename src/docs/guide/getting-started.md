@@ -1,24 +1,26 @@
 # 快速上手
 
-## 安装GoEx库  
-``` go get github.com/nntaoli-project/GoEx ```
+## 安装 GoEx 库
+
+`go get github.com/nntaoli-project/GoEx`
 
 ## 例子
-```golang
+
+```go
 
    package main
-   
+
    import (
    	"github.com/nntaoli-project/GoEx"
    	"github.com/nntaoli-project/GoEx/builder"
    	"log"
    	"time"
    )
-   
+
    func main() {
    	apiBuilder := builder.NewAPIBuilder().HttpTimeout(5 * time.Second)
    	//apiBuilder := builder.NewAPIBuilder().HttpTimeout(5 * time.Second).HttpProxy("socks5://127.0.0.1:1080")
-   	
+
    	//build spot api
    	//api := apiBuilder.APIKey("").APISecretkey("").ClientID("123").Build(goex.BITSTAMP)
    	api := apiBuilder.APIKey("").APISecretkey("").Build(goex.HUOBI_PRO)
@@ -27,7 +29,7 @@
    	log.Println(api.GetDepth(2, goex.BTC_USD))
    	//log.Println(api.GetAccount())
    	//log.Println(api.GetUnfinishOrders(goex.BTC_USD))
-   
+
    	//build future api
    	futureApi := apiBuilder.APIKey("").APISecretkey("").BuildFuture(goex.HBDM)
    	log.Println(futureApi.GetExchangeName())
@@ -40,7 +42,8 @@
 ```
 
 ## websocket 使用例子
-```golang
+
+```go
 import (
 	"github.com/nntaoli-project/GoEx"
 	"github.com/nntaoli-project/GoEx/huobi"
@@ -64,6 +67,6 @@ func main() {
 	ws.SubscribeTrade(goex.BTC_USDT, goex.NEXT_WEEK_CONTRACT)
 	ws.SubscribeDepth(goex.BTC_USDT, goex.QUARTER_CONTRACT, 5)
 	ws.SubscribeTicker(goex.BTC_USDT, goex.QUARTER_CONTRACT)
-}  
+}
 
 ```

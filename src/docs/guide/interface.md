@@ -4,7 +4,7 @@
 
 调用 APIBuilder
 
-```golang
+```go
   package main
 
    import (
@@ -33,7 +33,7 @@
 
 ### APIBuilder 支持列表
 
-```golang
+```go
 //exchanges
 const (
 	OKCOIN_CN   = "okcoin.cn"
@@ -91,7 +91,7 @@ const (
 
 ### 行情接口
 
-```golang
+```go
 	GetTicker(currency CurrencyPair) (*Ticker, error)
 	GetDepth(size int, currency CurrencyPair) (*Depth, error)
 	GetKlineRecords(currency CurrencyPair, period , size, since int) ([]Kline, error)
@@ -101,7 +101,7 @@ const (
 
 ### 交易接口
 
-```golang
+```go
 	LimitBuy(amount, price string, currency CurrencyPair) (*Order, error)
 	LimitSell(amount, price string, currency CurrencyPair) (*Order, error)
 	MarketBuy(amount, price string, currency CurrencyPair) (*Order, error)
@@ -114,7 +114,7 @@ const (
 
 ### 账户接口
 
-```golang
+```go
 	GetAccount() (*Account, error)
 ```
 
@@ -122,7 +122,7 @@ const (
 
 ### 行情接口
 
-```golang
+```go
 	GetExchangeName() string
 	GetFutureEstimatedPrice(currencyPair CurrencyPair) (float64, error)
 	GetFutureTicker(currencyPair CurrencyPair, contractType string) (*Ticker, error)
@@ -138,7 +138,7 @@ const (
 
 ### 交易接口
 
-```golang
+```go
 	PlaceFutureOrder(currencyPair CurrencyPair, contractType, price, amount string, openType, matchPrice, leverRate int) (string, error)
 	FutureCancelOrder(currencyPair CurrencyPair, contractType, orderId string) (bool, error)
 	GetFuturePosition(currencyPair CurrencyPair, contractType string) ([]FuturePosition, error)
@@ -149,7 +149,7 @@ const (
 
 ### 账户接口
 
-```golang
+```go
 	GetFutureUserinfo() (*FutureAccount, error)
 ```
 
@@ -159,7 +159,7 @@ const (
 
 OKEX 实现了 V3 协议，可用如下方式获取全部交易类型的 API
 
-```golang
+```go
 
 import (
 	"github.com/nntaoli-project/GoEx/okex"
