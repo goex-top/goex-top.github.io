@@ -1,5 +1,5 @@
-src/node_modules
-src/docs/.vuepress/dist
+node_modules
+docs/.vuepress/dist
 npm-debug.log
 .history
 .DS_Store

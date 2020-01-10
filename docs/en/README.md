@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /goex.png
+heroImage: /img/goex.png
 actionText: QuickStart →
-actionLink: /guide/en/
+actionLink: /en/guide/
 features:
 - title: Simple
   details: support simple and powerful API for market and trade

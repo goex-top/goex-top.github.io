@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /goex.png
+heroImage: /img/goex.png
 actionText: 快速上手 →
 actionLink: /guide/
 features:

@@ -1,5 +1,5 @@
 <div align="center">
-<img width="409" heigth="205" src="https://raw.githubusercontent.com/go-ex/go-ex.github.io/master/src/docs/.vuepress/public/goex.png"  alt="GoEx">
+<img width="409" heigth="205" src="https://raw.githubusercontent.com/goex-top/goex-top.github.io/master/goex.png"  alt="GoEx">
 </div>
 
 # Introduction
@@ -40,7 +40,7 @@ GoEx project is designed to unify and standardize the interfaces of each digital
 ``` go get github.com/nntaoli-project/GoEx ```
 
 ### Example
-```golang
+```go
 
    package main
    
@@ -76,7 +76,7 @@ GoEx project is designed to unify and standardize the interfaces of each digital
 ```
 
 ### websocket Example
-```golang
+```go
 import (
 	"github.com/nntaoli-project/GoEx"
 	"github.com/nntaoli-project/GoEx/huobi"

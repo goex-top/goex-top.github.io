@@ -1,7 +1,7 @@
 {
-  "name": "GoEx-Website",
-  "title": "GoEx Website",
-  "version": "1.0.0",
+  "name": "GoEx-Docs",
+  "title": "GoEx docs",
+  "version": "1.1.0",
   "description": "统一并标准化各个数字资产交易平台的接口",
   "keywords": [
     "GoEx",
@@ -13,12 +13,13 @@
     "trader"
   ],
   "bugs": {
-    "url": "https://go-ex/go-ex.github.io/issues"
+    "url": "https://github.com/goex-top/goex-top.github.io/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://go-ex/go-ex.github.io.git"
+    "url": "git+https://github.com/goex-top/goex-top.github.io.git"
   },
+  "homepage": "https://goex.top",
   "author": "beaquant",
   "license": "MIT",
   "scripts": {
@@ -28,10 +29,19 @@
   },
   "devDependencies": {
     "@babel/helper-module-imports": "^7.0.0",
-    "vuepress": "^0.14.11"
+    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.0",
+    "eslint-config-sora": "^2.0.0",
+    "eslint-plugin-markdown": "^1.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "vuepress": "^1.2.0"
   },
   "dependencies": {
     "@babel/core": "^7.5.4",
-    "@babel/plugin-syntax-jsx": "^7.2.0"
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "semver": "^6.0.0",
+    "vue-discord-message": "^3.2.5",
+    "vuepress-theme-yuu": "^2.2.0"
   }
 }

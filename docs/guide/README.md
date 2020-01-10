@@ -1,5 +1,5 @@
 <div align="center">
-<img width="409" heigth="205" src="https://raw.githubusercontent.com/go-ex/go-ex.github.io/master/src/docs/.vuepress/public/goex.png"  alt="GoEx">
+<img width="409" heigth="205" src="https://raw.githubusercontent.com/goex-top/goex-top.github.io/master/goex.png"  alt="GoEx">
 </div>
 
 # 介绍
@@ -7,7 +7,7 @@
 ## GoEx目标
 GoEx项目是为了统一并标准化各个数字资产交易平台的接口而设计，同一个策略可以随时切换到任意一个交易平台，而不需要更改任何代码。
 
-[English](https://goex.top/guide/en/)
+[English](https://goex.top/en/guide/)
 
 ## GoEx已支持交易所 `22+`
 | 交易所                 | 行情接口      | 交易接口 | 版本号 |
