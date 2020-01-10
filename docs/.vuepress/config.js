@@ -20,7 +20,7 @@ module.exports = {
   extendMarkdown(md) { /* ... */ },
   sidebarDepth: 4,
   head: [['link', { rel: 'icon', href: '/img/logo.ico' }]],
-  plugins: ['@vuepress/pwa'],
+  plugins: ['@vuepress/pwa','@vuepress/last-updated'],
   themeConfig: {
 	logo: '/img/goex.png',
     search: false,
