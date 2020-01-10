@@ -1,7 +1,0 @@
-src/node_modules
-src/docs/.vuepress/dist
-npm-debug.log
-.history
-.DS_Store
-.idea
-.vscode
