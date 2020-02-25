@@ -8,14 +8,17 @@
 
 ## 调试
 
-安装依赖库
+* 安装依赖库
 `npm install`
-开始查看本地运行状态
+
+* 开始查看本地运行状态
 `npm run docs:dev`
-生成静态的 HTML 文件
+
+* 生成静态的 HTML 文件
 `npm run docs:build`
 
-### 编辑或新建网页
+
+## 编辑或新建网页
 
 在`docs`, 编辑每个 markdown 文件。或新建.md 文件
 
